@@ -16,7 +16,7 @@ const Home = () => {
 
       const { data } =
         await axios.get(
-          "http://localhost:5000/products"
+          "https://mern-ecommerceapp-czkg.onrender.com/products"
         );
 
       setProducts(data);

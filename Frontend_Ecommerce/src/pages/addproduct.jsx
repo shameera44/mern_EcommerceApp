@@ -36,8 +36,7 @@ const submitHandler = async (e) => {
     const token =
       localStorage.getItem("token");
 
-    const response = await axios.post(
-      "http://localhost:5000/products",
+    const response = await axios.post("https://mern-ecommerceapp-czkg.onrender.com/products",
       {
         name,
         description,

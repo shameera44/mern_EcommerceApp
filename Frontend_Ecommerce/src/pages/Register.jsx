@@ -15,7 +15,7 @@ const Register = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/auth/register",
+        "https://mern-ecommerceapp-czkg.onrender.com/auth/register",
         {
           name,
           email,

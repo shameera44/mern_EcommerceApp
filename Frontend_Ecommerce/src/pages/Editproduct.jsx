@@ -38,7 +38,7 @@ const EditProduct = () => {
 
         const { data } =
           await axios.get(
-            `http://localhost:5000/products/${id}`
+            `https://mern-ecommerceapp-czkg.onrender.com/products/${id}`
           );
 
         setName(data.name);
@@ -100,7 +100,7 @@ const EditProduct = () => {
 
         const { data } =
           await axios.put(
-            `http://localhost:5000/products/${id}`,
+            `https://mern-ecommerceapp-czkg.onrender.com/products/${id}`,
             {
               name,
               description,

@@ -20,7 +20,7 @@ const navigate = useNavigate();
     try {
 
   const { data } = await axios.post(
-    "http://localhost:5000/auth/login",
+    "https://mern-ecommerceapp-czkg.onrender.com/auth/login",
     {
       email,
       password,
