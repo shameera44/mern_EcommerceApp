@@ -8,7 +8,7 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Cart from "./pages/Cart";
-import Orders from "./pages/Orders";
+
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProductDetail";
 import AddProduct from "./pages/AddProduct";
