@@ -5,14 +5,14 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Cart from "./pages/Cart";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Cart from "./pages/Cart.jsx";
 
-import Contact from "./pages/Contact";
-import ProductDetail from "./pages/ProductDetail";
-import AddProduct from "./pages/AddProduct";
-import EditProduct from "./pages/EditProduct";
+import Contact from "./pages/Contact.jsx";
+import ProductDetail from "./pages/ProductDetail.jsx";
+import AddProduct from "./pages/AddProduct.jsx";
+import EditProduct from "./pages/EditProduct.jsx";
 
 const App = () => {
   return (
